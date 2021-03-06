@@ -1,0 +1,7 @@
+name: 'Run chrome'
+description: 'It's run chrome'
+runs:
+  using: "composite"
+  steps:
+    - run: ${{ github.action_path }}/runChrome.sh
+      shell: bash
