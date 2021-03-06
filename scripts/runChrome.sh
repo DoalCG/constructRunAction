@@ -1,4 +1,4 @@
-#bush
+#!/bin/sh -l
 
 console.log("run")
 
